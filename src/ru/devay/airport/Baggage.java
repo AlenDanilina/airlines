@@ -10,9 +10,10 @@ public class Baggage {
         return maxWeight;
     }
 
-    public int getMaxLeight(){
-        return airClass.length () + airClass.length ();
+    public int getMaxLength(){
+        return airClass.length () + airlines.toString().length ();
     }
+
 
     @Override
     public String toString() {
